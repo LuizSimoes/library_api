@@ -17,7 +17,7 @@
     * Verifica se os campos obrigatórios para login (Email, Senha) são válidos;
     * Gera um token JWT e retorna quando o login for bem sucedido;
 
-Falta implementar:
+#### Falta implementar:
 3. Cadastrar livros;
 4. Consultar lista de todos os livros;
 5. Consultar livros pelo ID;
