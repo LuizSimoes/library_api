@@ -2,5 +2,9 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 
-app.get('/', (_req, res) => res.send('Hello World!'))
+const controller = require('./controllers/userController');
+
+app.use(express.json());
+
+app.post('/users', controller.createUser);
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
