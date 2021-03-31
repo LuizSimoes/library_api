@@ -1,0 +1,24 @@
+{
+  "name": "library_api",
+  "version": "1.0.0",
+  "description": "Uma pequena API para armazenar informações de livros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizSimoes/library_api.git"
+  },
+  "author": "Luiz E F Simões",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuizSimoes/library_api/issues"
+  },
+  "homepage": "https://github.com/LuizSimoes/library_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5"
+  }
+}
