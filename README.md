@@ -6,6 +6,7 @@
 * Consultar lista de todos os livros;
 * Consultar livros pelo ID;
 
+#### Contruído em NODE JS com EXPRESS
 #### Utilizado banco de dados não relacional com MongoDB
 #### Arquitetura de camada MSC
 
