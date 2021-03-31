@@ -1,4 +1,5 @@
 const service = require('../services/serviceUser');
+const createToken = require('../auth/createToken');
 const {
   created,
   conflict,
@@ -46,4 +47,5 @@ const loginUser = async (req, res) => {
 
 module.exports = {
   createUser,
+  loginUser,
 };
