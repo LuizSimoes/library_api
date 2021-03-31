@@ -1,7 +1,11 @@
 # library_api
 
 ### Uma API simples para cadastrar livros, a qual permite:
-* Cadastrar usuários
+* Cadastrar usuários (endpoint /users.)
+    * Verifica se os campos obrigatórios para cadastro (Email, Senha e Nome) foram preenchidos;
+    * Verifica se o e-mail utilizado já foi cadastrado;
+    * Todos os usuários cadastrados por este endpoint deverão devem ser usuários comuns (users e não admins).
+* Logar usuários;
 * Cadastrar livros;
 * Consultar lista de todos os livros;
 * Consultar livros pelo ID;
